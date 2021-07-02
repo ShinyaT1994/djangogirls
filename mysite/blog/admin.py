@@ -1,3 +1,8 @@
+# DjangoのImport
 from django.contrib import admin
 
-# Register your models here.
+# ModelのImport
+from .models import Post
+
+# Modelの登録
+admin.site.register(Post)
